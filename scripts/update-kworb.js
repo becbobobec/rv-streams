@@ -14,14 +14,10 @@ function cleanText(value) {
 
 async function fetchHTML(url) {
   const response = await fetch(url, {
-    headers: {
-      "user-agent": "Mozilla/5.0 RedVelvetCharts/1.0"
-    }
+    headers: { "user-agent": "Mozilla/5.0 RedVelvetCharts/1.0" }
   });
 
-  if (!response.ok) {
-    throw new Error(`Erro ao acessar ${url}: ${response.status}`);
-  }
+  if (!response.ok) throw new Error(`Erro ao acessar ${url}: ${response.status}`);
 
   return response.text();
 }
@@ -51,9 +47,7 @@ function parseSpotify(html) {
     });
   });
 
-  if (!songs.length) {
-    throw new Error("Spotify table not found.");
-  }
+  if (!songs.length) throw new Error("Spotify table not found.");
 
   return {
     source: SPOTIFY_URL,
@@ -69,49 +63,37 @@ function parseSpotify(html) {
 
 function parseYouTube(html) {
   const $ = cheerio.load(html);
-  const bodyText = cleanText($("body").text());
+  const rawText = $("body").text();
+
+  const bodyText = cleanText(rawText);
+
   const videos = [];
 
-  $("a").each((_, link) => {
-    const title = cleanText($(link).text());
+  const pattern =
+    /(Red Velvet[\s\S]*?)(?:\n|\r|\s{2,})([\d,]{4,})\s+([\d,]+)\s+(\d{4}\/\d{2})/g;
 
-    if (!title) return;
-    if (!title.toLowerCase().includes("red velvet")) return;
+  let match;
 
-    let textAfter = "";
-    let node = link.nextSibling;
+  while ((match = pattern.exec(rawText)) !== null) {
+    let title = cleanText(match[1]);
 
-    while (node && textAfter.length < 500) {
-      if (node.type === "text") {
-        textAfter += " " + node.data;
-      } else if (node.type === "tag") {
-        textAfter += " " + $(node).text();
-      }
+    title = title
+      .replace(/^.*?Video Views Yesterday Published/i, "")
+      .replace(/^.*?Total views:[\d,]+/i, "")
+      .replace(/^.*?Current daily avg:[\d,]+/i, "")
+      .trim();
 
-      node = node.nextSibling;
-    }
-
-    textAfter = cleanText(textAfter);
-
-    const match = textAfter.match(/([\d,]+)\s+([\d,]+)\s+(\d{4}\/\d{2})/);
-
-    if (!match) return;
-
-    let url = $(link).attr("href") || "";
-
-    if (url.startsWith("/")) {
-      url = "https://kworb.net" + url;
-    }
+    if (!title || title.length > 180) continue;
 
     videos.push({
       rank: videos.length + 1,
       title,
-      views: parseNumber(match[1]),
-      yesterday: parseNumber(match[2]),
-      published: match[3],
-      url
+      views: parseNumber(match[2]),
+      yesterday: parseNumber(match[3]),
+      published: match[4],
+      url: YOUTUBE_URL
     });
-  });
+  }
 
   if (!videos.length) {
     throw new Error("YouTube table not found.");
