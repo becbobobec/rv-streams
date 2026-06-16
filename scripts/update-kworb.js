@@ -22,14 +22,11 @@ async function fetchHTML(url) {
 
 function parseSpotify(html) {
   const $ = cheerio.load(html);
-  const bodyText = cleanText($("body").text());
-
   const songs = [];
 
   $("tr").each((_, row) => {
     const cells = $(row).find("td");
     const link = $(row).find("a[href*='open.spotify.com']").first();
-
     if (!link.length || cells.length < 3) return;
 
     const title = cleanText(link.text()).replace(/^\*\s*/, "");
@@ -65,28 +62,22 @@ function parseYouTube(html) {
   const $ = cheerio.load(html);
   const lines = $("body")
     .text()
-    .split("\n")
+    .split(/\n+/)
     .map(cleanText)
     .filter(Boolean);
 
   const bodyText = lines.join(" ");
 
-  const totals = {
-    views: parseNumber(bodyText.match(/Total views:\s*([\d,]+)/)?.[1]),
-    dailyAverage: parseNumber(bodyText.match(/Current daily avg:\s*([\d,]+)/)?.[1]),
-    videos: 0
-  };
-
   const videos = [];
 
-  for (let i = 0; i < lines.length; i++) {
+  for (let i = 0; i < lines.length - 1; i++) {
     const title = lines[i];
-    const next = lines[i + 1] || "";
+    const stats = lines[i + 1];
 
-    const match = next.match(/^([\d,]+)\s+([\d,]+)\s+(\d{4}\/\d{2})$/);
+    const match = stats.match(/^([\d,]+)\s+([\d,]+)\s+(\d{4}\/\d{2})$/);
 
     if (!match) continue;
-    if (!title || title === "Video Views Yesterday Published") continue;
+    if (!title || title.includes("Video Views Yesterday Published")) continue;
 
     videos.push({
       rank: videos.length + 1,
@@ -104,7 +95,8 @@ function parseYouTube(html) {
     source: YOUTUBE_URL,
     updatedAt: new Date().toISOString(),
     totals: {
-      ...totals,
+      views: parseNumber(bodyText.match(/Total views:\s*([\d,]+)/)?.[1]),
+      dailyAverage: parseNumber(bodyText.match(/Current daily avg:\s*([\d,]+)/)?.[1]),
       videos: videos.length
     },
     videos
