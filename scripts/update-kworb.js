@@ -16,23 +16,13 @@ async function fetchHTML(url) {
   const response = await fetch(url, {
     headers: { "user-agent": "Mozilla/5.0 RedVelvetCharts/1.0" }
   });
-
-  if (!response.ok) {
-    throw new Error(`Erro ao acessar ${url}: ${response.status}`);
-  }
-
+  if (!response.ok) throw new Error(`Erro ao acessar ${url}: ${response.status}`);
   return response.text();
 }
 
 function parseSpotify(html) {
   const $ = cheerio.load(html);
   const bodyText = cleanText($("body").text());
-
-  const totals = {
-    streams: parseNumber(bodyText.match(/Streams\s+([\d,]+)/)?.[1]),
-    daily: parseNumber(bodyText.match(/Daily\s+([\d,]+)/)?.[1]),
-    tracks: parseNumber(bodyText.match(/Tracks\s+([\d,]+)/)?.[1])
-  };
 
   const songs = [];
 
@@ -57,16 +47,15 @@ function parseSpotify(html) {
     });
   });
 
-  if (!songs.length) {
-    throw new Error("Spotify table not found.");
-  }
+  if (!songs.length) throw new Error("Spotify table not found.");
 
   return {
     source: SPOTIFY_URL,
     updatedAt: new Date().toISOString(),
     totals: {
-      ...totals,
-      tracks: totals.tracks || songs.length
+      streams: songs.reduce((sum, s) => sum + s.streams, 0),
+      daily: songs.reduce((sum, s) => sum + s.daily, 0),
+      tracks: songs.length
     },
     songs
   };
@@ -74,7 +63,13 @@ function parseSpotify(html) {
 
 function parseYouTube(html) {
   const $ = cheerio.load(html);
-  const bodyText = cleanText($("body").text());
+  const lines = $("body")
+    .text()
+    .split("\n")
+    .map(cleanText)
+    .filter(Boolean);
+
+  const bodyText = lines.join(" ");
 
   const totals = {
     views: parseNumber(bodyText.match(/Total views:\s*([\d,]+)/)?.[1]),
@@ -84,42 +79,26 @@ function parseYouTube(html) {
 
   const videos = [];
 
-  $("tr").each((_, row) => {
-    const cells = $(row).find("td");
+  for (let i = 0; i < lines.length; i++) {
+    const title = lines[i];
+    const next = lines[i + 1] || "";
 
-    if (cells.length < 4) return;
+    const match = next.match(/^([\d,]+)\s+([\d,]+)\s+(\d{4}\/\d{2})$/);
 
-    const cellTexts = cells.map((_, cell) => cleanText($(cell).text())).get();
-
-    const title = cellTexts[0];
-    const views = parseNumber(cellTexts[cellTexts.length - 3]);
-    const yesterday = parseNumber(cellTexts[cellTexts.length - 2]);
-    const published = cellTexts[cellTexts.length - 1];
-
-    if (!title || !views) return;
-    if (/^total/i.test(title)) return;
-    if (/artist|video|views|yesterday|published/i.test(title)) return;
-
-    const link = $(row).find("a").first();
-    let url = link.attr("href") || "";
-
-    if (url && url.startsWith("/")) {
-      url = `https://kworb.net${url}`;
-    }
+    if (!match) continue;
+    if (!title || title === "Video Views Yesterday Published") continue;
 
     videos.push({
       rank: videos.length + 1,
       title,
-      views,
-      yesterday,
-      published,
-      url
+      views: parseNumber(match[1]),
+      yesterday: parseNumber(match[2]),
+      published: match[3],
+      url: YOUTUBE_URL
     });
-  });
-
-  if (!videos.length) {
-    throw new Error("YouTube table not found.");
   }
+
+  if (!videos.length) throw new Error("YouTube table not found.");
 
   return {
     source: YOUTUBE_URL,
