@@ -60,24 +60,35 @@ function parseSpotify(html) {
 
 function parseYouTube(html) {
   const $ = cheerio.load(html);
+
   const lines = $("body")
     .text()
     .split(/\n+/)
-    .map(cleanText)
-    .filter(Boolean);
+    .map(cleanText);
 
   const bodyText = lines.join(" ");
 
   const videos = [];
 
-  for (let i = 0; i < lines.length - 1; i++) {
+  for (let i = 0; i < lines.length; i++) {
     const title = lines[i];
-    const stats = lines[i + 1];
+    if (!title) continue;
+    if (title.includes("Video Views Yesterday Published")) continue;
+
+    let stats = "";
+
+    for (let j = i + 1; j < Math.min(i + 6, lines.length); j++) {
+      if (/^[\d,]+\s+[\d,]+\s+\d{4}\/\d{2}$/.test(lines[j])) {
+        stats = lines[j];
+        break;
+      }
+    }
+
+    if (!stats) continue;
 
     const match = stats.match(/^([\d,]+)\s+([\d,]+)\s+(\d{4}\/\d{2})$/);
 
     if (!match) continue;
-    if (!title || title.includes("Video Views Yesterday Published")) continue;
 
     videos.push({
       rank: videos.length + 1,
@@ -88,6 +99,22 @@ function parseYouTube(html) {
       url: YOUTUBE_URL
     });
   }
+
+  if (!videos.length) {
+    throw new Error("YouTube table not found.");
+  }
+
+  return {
+    source: YOUTUBE_URL,
+    updatedAt: new Date().toISOString(),
+    totals: {
+      views: parseNumber(bodyText.match(/Total views:\s*([\d,]+)/)?.[1]),
+      dailyAverage: parseNumber(bodyText.match(/Current daily avg:\s*([\d,]+)/)?.[1]),
+      videos: videos.length
+    },
+    videos
+  };
+}
 
   if (!videos.length) throw new Error("YouTube table not found.");
 
