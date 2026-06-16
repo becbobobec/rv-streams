@@ -1,15 +1,1 @@
-{
-  "name": "redvelvet-streams",
-  "version": "1.0.0",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "update": "node scripts/update-kworb.js"
-  },
-  "dependencies": {
-    "cheerio": "^1.0.0"
-  },
-  "engines": {
-    "node": ">=20"
-  }
-}
+{"name":"redvelvet-streams","version":"1.0.0","type":"module","scripts":{"update":"node scripts/update-spotify.js"},"dependencies":{"cheerio":"^1.0.0"}}
