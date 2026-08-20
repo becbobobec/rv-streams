@@ -1,833 +1,839 @@
 {
   "source": "https://kworb.net/spotify/artist/1z4g3DjTBBZKhvAroFlhOM_songs.html",
-  "updatedAt": "2026-08-19T18:51:42.776Z",
+  "updatedAt": "2026-08-20T01:50:03.587Z",
   "totals": {
-    "tracks": 137,
-    "streams": 7621234426,
-    "daily": 73359992
+    "tracks": 138,
+    "streams": 7577684656,
+    "daily": 26715383
   },
   "songs": [
     {
       "rank": 1,
       "title": "Streams",
-      "streams": 3754894652,
-      "daily": 25282295
+      "streams": 3756437301,
+      "daily": 25287778
     },
     {
       "rank": 2,
       "title": "Daily",
-      "streams": 48058193,
-      "daily": 4901
+      "streams": 1407292,
+      "daily": 5483
     },
     {
       "rank": 3,
       "title": "Tracks",
-      "streams": 126,
+      "streams": 127,
       "daily": 1
     },
     {
       "rank": 4,
       "title": "Psycho",
-      "streams": 566838198,
-      "daily": 131462
+      "streams": 566975940,
+      "daily": 137742
     },
     {
       "rank": 5,
       "title": "Bad Boy",
-      "streams": 410284356,
-      "daily": 42116514
+      "streams": 368427702,
+      "daily": 0
     },
     {
       "rank": 6,
       "title": "러시안 룰렛 Russian Roulette",
-      "streams": 256319911,
-      "daily": 174440
+      "streams": 256477088,
+      "daily": 157177
     },
     {
       "rank": 7,
       "title": "Peek-A-Boo",
-      "streams": 248892582,
-      "daily": 40554
+      "streams": 248934229,
+      "daily": 41647
     },
     {
       "rank": 8,
       "title": "Red Flavor",
-      "streams": 227627963,
-      "daily": 2968146
+      "streams": 227679605,
+      "daily": 51642
     },
     {
       "rank": 9,
       "title": "Feel My Rhythm",
-      "streams": 188433571,
-      "daily": 29963
+      "streams": 188464948,
+      "daily": 31377
     },
     {
       "rank": 10,
       "title": "Queendom",
-      "streams": 142685676,
-      "daily": 17471
+      "streams": 142703450,
+      "daily": 17774
     },
     {
       "rank": 11,
       "title": "Cosmic",
-      "streams": 104551293,
-      "daily": 87577
+      "streams": 104645691,
+      "daily": 94398
     },
     {
       "rank": 12,
       "title": "Dumb Dumb",
-      "streams": 102983317,
-      "daily": 1649729
+      "streams": 103016148,
+      "daily": 32831
     },
     {
       "rank": 13,
       "title": "Zimzalabim",
-      "streams": 97877630,
-      "daily": 11462
+      "streams": 97889802,
+      "daily": 12172
     },
     {
       "rank": 14,
       "title": "Power Up",
-      "streams": 91775154,
-      "daily": 12465
+      "streams": 91788567,
+      "daily": 13413
     },
     {
       "rank": 15,
       "title": "Future",
-      "streams": 84561457,
-      "daily": 11742
+      "streams": 84573867,
+      "daily": 12410
     },
     {
       "rank": 16,
       "title": "Day 1",
-      "streams": 67828672,
-      "daily": 130955
+      "streams": 67960929,
+      "daily": 132257
     },
     {
       "rank": 17,
       "title": "In My Dreams",
-      "streams": 54075383,
-      "daily": 26003
+      "streams": 54100682,
+      "daily": 25299
     },
     {
       "rank": 18,
       "title": "Chill Kill",
-      "streams": 53220909,
-      "daily": 13152
+      "streams": 53235222,
+      "daily": 14313
     },
     {
       "rank": 19,
       "title": "행복 (Happiness)",
-      "streams": 51219345,
-      "daily": 22774
+      "streams": 51243084,
+      "daily": 23739
     },
     {
       "rank": 20,
       "title": "Umpah Umpah",
-      "streams": 42613649,
-      "daily": 9369
+      "streams": 42623551,
+      "daily": 9902
     },
     {
       "rank": 21,
-      "title": "Russian Roulette",
-      "streams": 37248160,
-      "daily": 3404
+      "title": "Bad Boy - English Version, Bonus Track",
+      "streams": 41992011,
+      "daily": 0
     },
     {
       "rank": 22,
-      "title": "In & Out",
-      "streams": 33989664,
-      "daily": 4033
+      "title": "Russian Roulette",
+      "streams": 37251582,
+      "daily": 3422
     },
     {
       "rank": 23,
-      "title": "Kingdom Come",
-      "streams": 33347418,
-      "daily": 11892
+      "title": "In & Out",
+      "streams": 33993732,
+      "daily": 4068
     },
     {
       "rank": 24,
-      "title": "Sunny Side Up!",
-      "streams": 27033752,
-      "daily": 4055
+      "title": "Kingdom Come",
+      "streams": 33359207,
+      "daily": 11789
     },
     {
       "rank": 25,
-      "title": "7월 7일 One Of These Nights",
-      "streams": 26611218,
-      "daily": 5523
+      "title": "Sunny Side Up!",
+      "streams": 27037935,
+      "daily": 4183
     },
     {
       "rank": 26,
-      "title": "* Close To Me - Red Velvet Remix",
-      "streams": 25282295,
-      "daily": 4901
+      "title": "7월 7일 One Of These Nights",
+      "streams": 26617018,
+      "daily": 5800
     },
     {
       "rank": 27,
-      "title": "BAMBOLEO",
-      "streams": 23949819,
-      "daily": 6887
+      "title": "* Close To Me - Red Velvet Remix",
+      "streams": 25287778,
+      "daily": 5483
     },
     {
       "rank": 28,
-      "title": "Pose",
-      "streams": 23852242,
-      "daily": 3389
+      "title": "BAMBOLEO",
+      "streams": 23956791,
+      "daily": 6972
     },
     {
       "rank": 29,
-      "title": "I Just",
-      "streams": 21158018,
-      "daily": 3148
+      "title": "Pose",
+      "streams": 23855806,
+      "daily": 3564
     },
     {
       "rank": 30,
-      "title": "Look",
-      "streams": 20393201,
-      "daily": 3955
+      "title": "I Just",
+      "streams": 21161313,
+      "daily": 3295
     },
     {
       "rank": 31,
-      "title": "Be Natural",
-      "streams": 18859901,
-      "daily": 5772
+      "title": "Look",
+      "streams": 20397225,
+      "daily": 4024
     },
     {
       "rank": 32,
-      "title": "WILDSIDE",
-      "streams": 18654309,
-      "daily": 3337
+      "title": "Be Natural",
+      "streams": 18866361,
+      "daily": 6460
     },
     {
       "rank": 33,
-      "title": "You Better Know",
-      "streams": 17869196,
-      "daily": 3787
+      "title": "WILDSIDE",
+      "streams": 18657700,
+      "daily": 3391
     },
     {
       "rank": 34,
-      "title": "Underwater",
-      "streams": 16009646,
-      "daily": 8199
+      "title": "You Better Know",
+      "streams": 17873178,
+      "daily": 3982
     },
     {
       "rank": 35,
-      "title": "Hello, Sunset",
-      "streams": 15696948,
-      "daily": 3841
+      "title": "Underwater",
+      "streams": 16018119,
+      "daily": 8473
     },
     {
       "rank": 36,
-      "title": "LP",
-      "streams": 15573241,
-      "daily": 2975
+      "title": "Hello, Sunset",
+      "streams": 15701069,
+      "daily": 4121
     },
     {
       "rank": 37,
-      "title": "#Cookie Jar",
-      "streams": 15493657,
-      "daily": 2725
+      "title": "LP",
+      "streams": 15576217,
+      "daily": 2976
     },
     {
       "rank": 38,
-      "title": "Eyes Locked, Hands Locked",
-      "streams": 14615132,
-      "daily": 2474
+      "title": "#Cookie Jar",
+      "streams": 15496537,
+      "daily": 2880
     },
     {
       "rank": 39,
-      "title": "Beg For Me",
-      "streams": 14485673,
-      "daily": 2700
+      "title": "Eyes Locked, Hands Locked",
+      "streams": 14617905,
+      "daily": 2773
     },
     {
       "rank": 40,
-      "title": "Would U",
-      "streams": 14413396,
-      "daily": 2267
+      "title": "Beg For Me",
+      "streams": 14488343,
+      "daily": 2670
     },
     {
       "rank": 41,
-      "title": "Blue Lemonade",
-      "streams": 13986353,
-      "daily": 3533
+      "title": "Would U",
+      "streams": 14415804,
+      "daily": 2408
     },
     {
       "rank": 42,
-      "title": "Zoo",
-      "streams": 13845573,
-      "daily": 2199
+      "title": "Blue Lemonade",
+      "streams": 13990006,
+      "daily": 3653
     },
     {
       "rank": 43,
-      "title": "Beautiful Christmas",
-      "streams": 13672585,
-      "daily": 2579
+      "title": "Zoo",
+      "streams": 13847875,
+      "daily": 2302
     },
     {
       "rank": 44,
-      "title": "Oh Boy",
-      "streams": 12357841,
-      "daily": 3566
+      "title": "Beautiful Christmas",
+      "streams": 13675086,
+      "daily": 2501
     },
     {
       "rank": 45,
-      "title": "About Love",
-      "streams": 12089974,
-      "daily": 5334
+      "title": "Oh Boy",
+      "streams": 12361498,
+      "daily": 3657
     },
     {
       "rank": 46,
-      "title": "SAPPY",
-      "streams": 12023988,
-      "daily": 1301
+      "title": "About Love",
+      "streams": 12095597,
+      "daily": 5623
     },
     {
       "rank": 47,
-      "title": "Remember Forever",
-      "streams": 12016597,
-      "daily": 1355
+      "title": "SAPPY",
+      "streams": 12025348,
+      "daily": 1360
     },
     {
       "rank": 48,
-      "title": "Perfect 10",
-      "streams": 11786705,
-      "daily": 3011
+      "title": "Remember Forever",
+      "streams": 12018019,
+      "daily": 1422
     },
     {
       "rank": 49,
-      "title": "Ladies Night",
-      "streams": 11245586,
-      "daily": 1884
+      "title": "Perfect 10",
+      "streams": 11789665,
+      "daily": 2960
     },
     {
       "rank": 50,
-      "title": "My Second Date",
-      "streams": 10964994,
-      "daily": 1401
+      "title": "Ladies Night",
+      "streams": 11247475,
+      "daily": 1889
     },
     {
       "rank": 51,
-      "title": "Knock Knock (Who's There?)",
-      "streams": 10679763,
-      "daily": 3843
+      "title": "My Second Date",
+      "streams": 10966379,
+      "daily": 1385
     },
     {
       "rank": 52,
-      "title": "Pushin' N Pullin'",
-      "streams": 10579024,
-      "daily": 2446
+      "title": "Knock Knock (Who's There?)",
+      "streams": 10683498,
+      "daily": 3735
     },
     {
       "rank": 53,
-      "title": "Milkshake",
-      "streams": 10421870,
-      "daily": 1147
+      "title": "Pushin' N Pullin'",
+      "streams": 10581493,
+      "daily": 2469
     },
     {
       "rank": 54,
-      "title": "Knock On Wood",
-      "streams": 10311443,
-      "daily": 2215
+      "title": "Milkshake",
+      "streams": 10423072,
+      "daily": 1202
     },
     {
       "rank": 55,
-      "title": "Love Is The Way",
-      "streams": 10231468,
-      "daily": 1405
+      "title": "Knock On Wood",
+      "streams": 10314143,
+      "daily": 2700
     },
     {
       "rank": 56,
-      "title": "Time To Love",
-      "streams": 10209223,
-      "daily": 2236
+      "title": "Love Is The Way",
+      "streams": 10232886,
+      "daily": 1418
     },
     {
       "rank": 57,
-      "title": "Rainbow Halo",
-      "streams": 10108778,
-      "daily": 2144
+      "title": "Time To Love",
+      "streams": 10211534,
+      "daily": 2311
     },
     {
       "rank": 58,
-      "title": "Will I Ever See You Again?",
-      "streams": 10084989,
-      "daily": 4761
+      "title": "Rainbow Halo",
+      "streams": 10110918,
+      "daily": 2140
     },
     {
       "rank": 59,
-      "title": "Moonlight Melody",
-      "streams": 9829869,
-      "daily": 1608
+      "title": "Will I Ever See You Again?",
+      "streams": 10090147,
+      "daily": 5158
     },
     {
       "rank": 60,
-      "title": "Sunflower",
-      "streams": 9472537,
-      "daily": 4970
+      "title": "Moonlight Melody",
+      "streams": 9831428,
+      "daily": 1559
     },
     {
       "rank": 61,
-      "title": "Last Drop",
-      "streams": 9180254,
-      "daily": 6177
+      "title": "Sunflower",
+      "streams": 9477671,
+      "daily": 5134
     },
     {
       "rank": 62,
-      "title": "Milky Way",
-      "streams": 8958219,
-      "daily": 1402
+      "title": "Last Drop",
+      "streams": 9186345,
+      "daily": 6091
     },
     {
       "rank": 63,
-      "title": "Attaboy",
-      "streams": 8957758,
-      "daily": 1160
+      "title": "Milky Way",
+      "streams": 8959689,
+      "daily": 1470
     },
     {
       "rank": 64,
-      "title": "Carpool",
-      "streams": 8952730,
-      "daily": 1434
+      "title": "Attaboy",
+      "streams": 8959091,
+      "daily": 1333
     },
     {
       "rank": 65,
-      "title": "Lucky Girl",
-      "streams": 8651781,
-      "daily": 2159
+      "title": "Carpool",
+      "streams": 8954261,
+      "daily": 1531
     },
     {
       "rank": 66,
-      "title": "Cool Hot Sweet Love",
-      "streams": 8482690,
-      "daily": 1462
+      "title": "Lucky Girl",
+      "streams": 8654076,
+      "daily": 2295
     },
     {
       "rank": 67,
-      "title": "Good, Bad, Ugly",
-      "streams": 8419566,
-      "daily": 1936
+      "title": "Cool Hot Sweet Love",
+      "streams": 8484089,
+      "daily": 1399
     },
     {
       "rank": 68,
-      "title": "All Right",
-      "streams": 8342335,
-      "daily": 1203
+      "title": "Good, Bad, Ugly",
+      "streams": 8421475,
+      "daily": 1909
     },
     {
       "rank": 69,
-      "title": "Time Slip",
-      "streams": 8285838,
-      "daily": 2366
+      "title": "All Right",
+      "streams": 8343536,
+      "daily": 1201
     },
     {
       "rank": 70,
-      "title": "Hear The Sea",
-      "streams": 8212727,
-      "daily": 3694
+      "title": "Time Slip",
+      "streams": 8288239,
+      "daily": 2401
     },
     {
       "rank": 71,
-      "title": "Parade",
-      "streams": 8093357,
-      "daily": 1076
+      "title": "Hear The Sea",
+      "streams": 8216434,
+      "daily": 3707
     },
     {
       "rank": 72,
-      "title": "Bing Bing",
-      "streams": 8003741,
-      "daily": 921
+      "title": "Parade",
+      "streams": 8094413,
+      "daily": 1056
     },
     {
       "rank": 73,
-      "title": "Jumpin'",
-      "streams": 7794585,
-      "daily": 938
+      "title": "Bing Bing",
+      "streams": 8004703,
+      "daily": 962
     },
     {
       "rank": 74,
-      "title": "La Rouge - Special Track",
-      "streams": 7651739,
-      "daily": 1207
+      "title": "Jumpin'",
+      "streams": 7795492,
+      "daily": 907
     },
     {
       "rank": 75,
-      "title": "Better Be",
-      "streams": 7638299,
-      "daily": 1169
+      "title": "La Rouge - Special Track",
+      "streams": 7652995,
+      "daily": 1256
     },
     {
       "rank": 76,
-      "title": "Iced Coffee",
-      "streams": 7554597,
-      "daily": 3370
+      "title": "Better Be",
+      "streams": 7639448,
+      "daily": 1149
     },
     {
       "rank": 77,
-      "title": "Red Dress",
-      "streams": 7532381,
-      "daily": 1405
+      "title": "Iced Coffee",
+      "streams": 7558029,
+      "daily": 3432
     },
     {
       "rank": 78,
-      "title": "Nightmare",
-      "streams": 7258216,
-      "daily": 2605
+      "title": "Red Dress",
+      "streams": 7533934,
+      "daily": 1553
     },
     {
       "rank": 79,
-      "title": "One Kiss",
-      "streams": 6987081,
-      "daily": 2577
+      "title": "Nightmare",
+      "streams": 7260767,
+      "daily": 2551
     },
     {
       "rank": 80,
-      "title": "Huff n Puff",
-      "streams": 6927587,
-      "daily": 1907
+      "title": "One Kiss",
+      "streams": 6989713,
+      "daily": 2632
     },
     {
       "rank": 81,
-      "title": "Bad Dracula",
-      "streams": 6800450,
-      "daily": 1156
+      "title": "Huff n Puff",
+      "streams": 6929553,
+      "daily": 1966
     },
     {
       "rank": 82,
-      "title": "Night Drive",
-      "streams": 6527933,
-      "daily": 4546
+      "title": "Bad Dracula",
+      "streams": 6801678,
+      "daily": 1228
     },
     {
       "rank": 83,
-      "title": "Love Arcade",
-      "streams": 6494811,
-      "daily": 3573
+      "title": "Night Drive",
+      "streams": 6532495,
+      "daily": 4562
     },
     {
       "rank": 84,
-      "title": "Sayonara",
-      "streams": 6439078,
-      "daily": 1053
+      "title": "Love Arcade",
+      "streams": 6498164,
+      "daily": 3353
     },
     {
       "rank": 85,
-      "title": "Rebirth",
-      "streams": 6404019,
-      "daily": 686
+      "title": "Sayonara",
+      "streams": 6440124,
+      "daily": 1046
     },
     {
       "rank": 86,
-      "title": "With You",
-      "streams": 6341817,
-      "daily": 854
+      "title": "Rebirth",
+      "streams": 6404731,
+      "daily": 712
     },
     {
       "rank": 87,
-      "title": "Hit That Drum",
-      "streams": 6216189,
-      "daily": 1128
+      "title": "With You",
+      "streams": 6342680,
+      "daily": 863
     },
     {
       "rank": 88,
-      "title": "Light Me Up",
-      "streams": 6126184,
-      "daily": 1092
+      "title": "Hit That Drum",
+      "streams": 6217328,
+      "daily": 1139
     },
     {
       "rank": 89,
-      "title": "Bubble",
-      "streams": 6082846,
-      "daily": 3604
+      "title": "Light Me Up",
+      "streams": 6127314,
+      "daily": 1130
     },
     {
       "rank": 90,
-      "title": "Aitai-tai",
-      "streams": 6008561,
-      "daily": 2147
+      "title": "Bubble",
+      "streams": 6086540,
+      "daily": 3694
     },
     {
       "rank": 91,
-      "title": "Sweet Dreams",
-      "streams": 5860849,
-      "daily": 3799
+      "title": "Aitai-tai",
+      "streams": 6010709,
+      "daily": 2148
     },
     {
       "rank": 92,
-      "title": "My Dear",
-      "streams": 5815582,
-      "daily": 1841
+      "title": "Sweet Dreams",
+      "streams": 5864702,
+      "daily": 3853
     },
     {
       "rank": 93,
-      "title": "Sunny Afternoon",
-      "streams": 5746660,
-      "daily": 1448
+      "title": "My Dear",
+      "streams": 5817536,
+      "daily": 1954
     },
     {
       "rank": 94,
-      "title": "Mojito",
-      "streams": 5706954,
-      "daily": 1017
+      "title": "Sunny Afternoon",
+      "streams": 5748105,
+      "daily": 1445
     },
     {
       "rank": 95,
-      "title": "Bulldozer",
-      "streams": 5673672,
-      "daily": 2256
+      "title": "Mojito",
+      "streams": 5708072,
+      "daily": 1118
     },
     {
       "rank": 96,
-      "title": "Fool",
-      "streams": 5554147,
-      "daily": 844
+      "title": "Bulldozer",
+      "streams": 5676111,
+      "daily": 2439
     },
     {
       "rank": 97,
-      "title": "Cool World",
-      "streams": 5477058,
-      "daily": 1483
+      "title": "Fool",
+      "streams": 5555024,
+      "daily": 877
     },
     {
       "rank": 98,
-      "title": "Don't U Wait No More",
-      "streams": 5404905,
-      "daily": 1177
+      "title": "Cool World",
+      "streams": 5478557,
+      "daily": 1499
     },
     {
       "rank": 99,
-      "title": "Mosquito",
-      "streams": 5332799,
-      "daily": 710
+      "title": "Don't U Wait No More",
+      "streams": 5406124,
+      "daily": 1219
     },
     {
       "rank": 100,
-      "title": "Lady's Room",
-      "streams": 5177621,
-      "daily": 1355
+      "title": "Mosquito",
+      "streams": 5333576,
+      "daily": 777
     },
     {
       "rank": 101,
-      "title": "Mr. E",
-      "streams": 5018388,
-      "daily": 698
+      "title": "Lady's Room",
+      "streams": 5179039,
+      "daily": 1418
     },
     {
       "rank": 102,
-      "title": "Campfire",
-      "streams": 4907575,
-      "daily": 1136
+      "title": "Mr. E",
+      "streams": 5019123,
+      "daily": 735
     },
     {
       "rank": 103,
       "title": "Surfin' Boy",
-      "streams": 4794732,
-      "daily": 225142
+      "streams": 5016143,
+      "daily": 221411
     },
     {
       "rank": 104,
-      "title": "세가지 소원 Wish Tree",
-      "streams": 4791384,
-      "daily": 492
+      "title": "Campfire",
+      "streams": 4908748,
+      "daily": 1173
     },
     {
       "rank": 105,
-      "title": "Scenery",
-      "streams": 4735389,
-      "daily": 1845
+      "title": "세가지 소원 Wish Tree",
+      "streams": 4791856,
+      "daily": 472
     },
     {
       "rank": 106,
-      "title": "Wings",
-      "streams": 4643275,
-      "daily": 1761
+      "title": "Scenery",
+      "streams": 4737341,
+      "daily": 1952
     },
     {
       "rank": 107,
-      "title": "처음인가요 First Time",
-      "streams": 4484496,
-      "daily": 714
+      "title": "Wings",
+      "streams": 4645062,
+      "daily": 1787
     },
     {
       "rank": 108,
-      "title": "Some Love",
-      "streams": 4478318,
-      "daily": 716
+      "title": "처음인가요 First Time",
+      "streams": 4485205,
+      "daily": 709
     },
     {
       "rank": 109,
-      "title": "Marionette",
-      "streams": 4377686,
-      "daily": 957
+      "title": "Some Love",
+      "streams": 4479035,
+      "daily": 717
     },
     {
       "rank": 110,
-      "title": "Color of Love",
-      "streams": 4339975,
-      "daily": 1141
+      "title": "Marionette",
+      "streams": 4378675,
+      "daily": 989
     },
     {
       "rank": 111,
-      "title": "Swimming Pool",
-      "streams": 4282068,
-      "daily": 906
+      "title": "Color of Love",
+      "streams": 4341121,
+      "daily": 1146
     },
     {
       "rank": 112,
-      "title": "7월 7일 One Of These Nights - Piano Version",
-      "streams": 3143680,
-      "daily": 326
+      "title": "Swimming Pool",
+      "streams": 4282973,
+      "daily": 905
     },
     {
       "rank": 113,
-      "title": "장미꽃 향기는 바람에 날리고 Rose Scent Breeze",
-      "streams": 3023243,
-      "daily": 562
+      "title": "7월 7일 One Of These Nights - Piano Version",
+      "streams": 3143986,
+      "daily": 306
     },
     {
       "rank": 114,
-      "title": "'Cause it's you",
-      "streams": 2979244,
-      "daily": 497
+      "title": "장미꽃 향기는 바람에 날리고 Rose Scent Breeze",
+      "streams": 3023791,
+      "daily": 548
     },
     {
       "rank": 115,
-      "title": "Snap Snap",
-      "streams": 2141269,
-      "daily": 537
+      "title": "'Cause it's you",
+      "streams": 2979682,
+      "daily": 438
     },
     {
       "rank": 116,
-      "title": "Bad Boy - PREP Remix",
-      "streams": 2075570,
-      "daily": 362
+      "title": "Snap Snap",
+      "streams": 2141861,
+      "daily": 592
     },
     {
       "rank": 117,
-      "title": "Orchestra",
-      "streams": 1857844,
-      "daily": 62855
+      "title": "Bad Boy - PREP Remix",
+      "streams": 2075980,
+      "daily": 0
     },
     {
       "rank": 118,
-      "title": "Jackpot",
-      "streams": 1756691,
-      "daily": 559
+      "title": "Orchestra",
+      "streams": 1917257,
+      "daily": 59413
     },
     {
       "rank": 119,
-      "title": "Power Up - Japanese Version",
-      "streams": 1341250,
-      "daily": 176
+      "title": "Jackpot",
+      "streams": 1757269,
+      "daily": 578
     },
     {
       "rank": 120,
-      "title": "Run Devil Run",
-      "streams": 1290998,
-      "daily": 778
+      "title": "Power Up - Japanese Version",
+      "streams": 1341451,
+      "daily": 201
     },
     {
       "rank": 121,
-      "title": "Peek-A-Boo - Japanese Version",
-      "streams": 1287953,
-      "daily": 222
+      "title": "Run Devil Run",
+      "streams": 1291782,
+      "daily": 784
     },
     {
       "rank": 122,
-      "title": "Future - Instrumental",
-      "streams": 1248112,
-      "daily": 112
+      "title": "Peek-A-Boo - Japanese Version",
+      "streams": 1288181,
+      "daily": 228
     },
     {
       "rank": 123,
-      "title": "7월 7일 One Of These Nights - De-Capo Version",
-      "streams": 1190739,
-      "daily": 129
+      "title": "Future - Instrumental",
+      "streams": 1248261,
+      "daily": 149
     },
     {
       "rank": 124,
-      "title": "Queendom - Demicat Remix",
-      "streams": 1190044,
-      "daily": 230
+      "title": "Hula Hoop",
+      "streams": 1218042,
+      "daily": 37289
     },
     {
       "rank": 125,
       "title": "Hot Girls Cold Vibe",
-      "streams": 1183957,
-      "daily": 34799
+      "streams": 1217040,
+      "daily": 33083
     },
     {
       "rank": 126,
-      "title": "Hula Hoop",
-      "streams": 1180753,
-      "daily": 38455
+      "title": "7월 7일 One Of These Nights - De-Capo Version",
+      "streams": 1190893,
+      "daily": 154
     },
     {
       "rank": 127,
-      "title": "7월 7일 One Of These Nights - Joe Millionaire Version",
-      "streams": 1171564,
-      "daily": 166
+      "title": "Queendom - Demicat Remix",
+      "streams": 1190279,
+      "daily": 235
     },
     {
       "rank": 128,
-      "title": "Bad Boy - Slom Remix",
-      "streams": 1071956,
-      "daily": 482
+      "title": "7월 7일 One Of These Nights - Joe Millionaire Version",
+      "streams": 1171716,
+      "daily": 152
     },
     {
       "rank": 129,
-      "title": "Hawaii",
-      "streams": 921094,
-      "daily": 23474
+      "title": "Bad Boy - Slom Remix",
+      "streams": 1072418,
+      "daily": 0
     },
     {
       "rank": 130,
-      "title": "Bad Boy - nomad Remix",
-      "streams": 874115,
-      "daily": 145
+      "title": "Hawaii",
+      "streams": 943837,
+      "daily": 22743
     },
     {
       "rank": 131,
-      "title": "Rookie - Japanese Version",
-      "streams": 796344,
-      "daily": 146
+      "title": "Bad Boy - nomad Remix",
+      "streams": 874246,
+      "daily": 0
     },
     {
       "rank": 132,
-      "title": "Yossism (Music from Telemonster)",
-      "streams": 632145,
-      "daily": 52
+      "title": "Rookie - Japanese Version",
+      "streams": 796512,
+      "daily": 168
     },
     {
       "rank": 133,
-      "title": "Would U - Instrumental",
-      "streams": 462164,
-      "daily": 36
+      "title": "Yossism (Music from Telemonster)",
+      "streams": 632186,
+      "daily": 41
     },
     {
       "rank": 134,
-      "title": "Red Flavor - Mar Vista Remix",
-      "streams": 360337,
-      "daily": 131
+      "title": "Would U - Instrumental",
+      "streams": 462206,
+      "daily": 42
     },
     {
       "rank": 135,
-      "title": "너에게 원한건",
-      "streams": 358340,
-      "daily": 85
+      "title": "Red Flavor - Mar Vista Remix",
+      "streams": 360487,
+      "daily": 150
     },
     {
       "rank": 136,
-      "title": "Rebirth - Instrumental",
-      "streams": 324490,
-      "daily": 31
+      "title": "너에게 원한건",
+      "streams": 358451,
+      "daily": 111
     },
     {
       "rank": 137,
+      "title": "Rebirth - Instrumental",
+      "streams": 324515,
+      "daily": 25
+    },
+    {
+      "rank": 138,
       "title": "Milky Way - Instrumental",
-      "streams": 241545,
-      "daily": 23
+      "streams": 241560,
+      "daily": 15
     }
   ]
 }
